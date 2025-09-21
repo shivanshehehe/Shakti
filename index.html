@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚨 Shakti – Women Safety 🚨</title>
+
+  <!-- Leaflet Map CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <h2>📂 Contacts</h2>
+    <input type="text" id="contact-name" placeholder="Contact Name" />
+    <input type="text" id="contact-number" placeholder="Contact Number" />
+    <button id="add-contact">Add Contact</button>
+    <ul id="contacts-list"></ul>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main">
+    <h1>🚨 SHAKTI – WOMEN SAFETY 🚨</h1>
+    <div id="location">Fetching location…</div>
+    <div id="map"></div>
+    <button id="emergency">🚨 EMERGENCY 🚨</button>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="index.js"></script>
+</body>
+</html>
